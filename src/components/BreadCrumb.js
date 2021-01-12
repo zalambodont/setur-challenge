@@ -8,7 +8,7 @@ const BreadCrumb = () => {
           <Breadcrumb className='py-1 hidden-medium'>
             <Breadcrumb.Item>Anasayfa</Breadcrumb.Item>
             <Breadcrumb.Item>
-              <a href="">Lorem</a>
+              <a href="/">Lorem</a>
             </Breadcrumb.Item>
             <Breadcrumb.Item>Ipsum</Breadcrumb.Item>
           </Breadcrumb>
@@ -19,7 +19,7 @@ const BreadCrumb = () => {
             <li><a href="/kampanyalar" title="" className="campaigns">Kampanyalar</a></li>
             <li><a href="/yetkili-seyahat-acenteleri" title="">Yetkili Seyahat Acenteleri</a></li>
             <li className="hidden-support-container">
-              <a href="#" title="" id="support-btn">Yardım ve Destek</a>
+              <a href="/" title="" id="support-btn">Yardım ve Destek</a>
               <i className="fal fa-angle-down"></i>
               <ul className="hidden-support">
                 <li>
