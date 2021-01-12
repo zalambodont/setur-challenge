@@ -1,0 +1,171 @@
+.ant {
+    &-layout{
+      &-header{
+        background: $white!important;
+
+  @media (max-width: 767px) {
+      padding: 0 15px;
+  }
+      }
+    }
+  }
+  
+  .logo {
+    width: 150px;
+    float: left;
+  }
+  
+  .menuCon {
+    width: calc(100% - 150px);
+    float: left;
+  
+    .ant-menu-item {
+      padding: 0px 5px;
+    }
+  
+    .ant-menu-submenu-title {
+      padding: 10px 20px;
+    }
+  
+    .ant-menu-item a, .ant-menu-submenu-title a {
+      padding: 10px 15px;
+    }
+  
+    .ant-menu-horizontal {
+      border-bottom: none;
+    }
+  
+    .leftMenu {
+      float: left;
+    }
+  
+    .rightMenu {
+      float: right;
+      li{
+        line-height: normal;
+        font-size: 0.8em;
+        padding-bottom: 10px!important;
+      }
+      .ant-menu-item-icon{
+        display: block;
+        margin: 0 auto 5px auto;
+        font-size: 2em;
+      }
+    }
+  }
+  
+  .barsMenu {
+    float: right;
+    height: 32px;
+    padding: 6px;
+    margin-top: 17px;
+    display: none;
+    background: none;
+  }
+  
+  .barsBtn {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: $mainColor;
+    position: relative;
+  
+    &:after, &:before {
+      content: attr(x);
+      width: 20px;
+      position: absolute;
+      top: -6px;
+      left: 0;
+      height: 2px;
+      background: $mainColor;
+    }
+  
+    &:after {
+      top: auto;
+      bottom: -6px;
+    }
+  }
+  
+  .ant-drawer-body {
+    padding: 0;
+  }
+  
+  .barsMenu > span {
+    display: block;
+  }
+  
+  .ant-drawer-body .ant-menu-horizontal {
+    > {
+      .ant-menu-item, .ant-menu-submenu {
+        display: inline-block;
+        width: 100%;
+      }
+  
+      .ant-menu-item:hover {
+        border-bottom-color: transparent;
+      }
+    }
+  
+    border-bottom: none;
+  }
+  
+  @media (max-width: 1135px) {
+    .barsMenu {
+      display: inline-block;
+    }
+  
+    .leftMenu, .rightMenu {
+      display: none;
+    }
+  
+    .logo a {
+      margin-left: -20px;
+    }
+  
+    .menuCon {
+      .ant-menu-item, .ant-menu-submenu-title {
+        padding: 1px 20px;
+      }
+    }
+  
+    .logo a {
+      padding: 10px 20px;
+    }
+  }
+
+  .head-right-menu{
+    text-align: right;
+    ul{
+      list-style-type: none;
+      display: inline-flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0;
+      padding: 0 20px;
+      .call-center{
+        font-size: 16px!important;
+        font-weight: 900;
+        text-decoration: none;
+      }
+      li{
+        padding: 10px 0;
+        margin-left: 15px;
+        ul{
+          display: none;
+        }
+      }
+      a:not(.call-center){
+      -webkit-transition: all ease .4s;
+      -moz-transition: all ease .4s;
+      -o-transition: all ease .4s;
+      transition: all ease .4s;
+      color: #555!important;
+      font-size: 13px!important;
+      font-weight: 400;
+      }
+      a.campaigns{
+        color:$mainColor!important
+      }
+    }
+  }

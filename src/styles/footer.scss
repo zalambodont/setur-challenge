@@ -1,0 +1,77 @@
+.ant {
+    &-layout{
+      &-footer{
+        background: $dark!important;
+        h5{
+          color: $white;
+          opacity: 0.7;
+          font-size: 1.5em;
+          margin-bottom: 4px;
+        }
+        nav{
+          ul{
+            list-style: none;
+            margin: 0 0 20px 0;
+            padding: 0;
+            li{
+              a{
+                color: $white;
+                opacity: 0.67;
+                transition: all 0.3s ease-in-out;
+                &:hover{
+                  opacity: 1;
+                }
+              }
+            }
+          }
+        }
+
+      .small-text{
+        color: $white;
+        font-size:0.8em;
+        opacity: 0.7;
+        padding: 0 50px 15px 50px;
+      }
+      .koc{
+        color: $white;
+        img{
+          margin-right: 15px;
+        }
+      }
+      }
+    }
+  }
+  
+  .pre-footer{
+    background: $mainColor;
+    .social{
+      list-style: none;
+      display: block;
+      width: 100%;
+      text-align: right;
+      margin: 0!important;
+      li{
+        display: inline-block;
+        padding: 5px;
+        a{
+          display: block;
+          font-size: 1em;
+          color: $white;
+          height: 22px;
+          width: 22px;
+          text-align: center;
+          line-height: 22px;
+          border-radius: 100px;
+          border: 1px solid $white;
+        }
+      }
+    }
+    .ant-btn-primary{box-shadow: none;}
+  }
+
+  .applications{
+    a{
+      margin-bottom:5px;
+      display: block;
+    }
+  }
