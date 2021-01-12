@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { Row, Col, Button } from 'antd';
-import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube, FaPinterestP } from "react-icons/fa";
+import { Row, Col } from 'antd';
 
 class FooterContent extends Component {
   render() {
@@ -87,11 +86,11 @@ class FooterContent extends Component {
         <Row>
           <Col flex="136px">
             <div className="applications">
-              <a href="https://itunes.apple.com/tr/app/setur/id1326016062" target="_blank">
-                <img src="https://cdn2.setur.com.tr/image/footer/appstore_3x.png" className="img-responsive" alt='image alt' />
+              <a href="https://itunes.apple.com/tr/app/setur/id1326016062"  target="_blank" rel="noreferrer">
+                <img src="https://cdn2.setur.com.tr/image/footer/appstore_3x.png" className="img-responsive" alt='alttext for ' />
               </a>
-              <a href="https://play.google.com/store/apps/details?id=com.app.setur" target="_blank">
-                <img src="https://cdn2.setur.com.tr/image/footer/playstore_3x.png" className="img-responsive" alt='image alt' />
+              <a href="https://play.google.com/store/apps/details?id=com.app.setur"  target="_blank" rel="noreferrer">
+                <img src="https://cdn2.setur.com.tr/image/footer/playstore_3x.png" className="img-responsive" alt='alttext for ' />
               </a>
             </div>
           </Col>
@@ -109,8 +108,8 @@ class FooterContent extends Component {
                 </div>
               </Col>
               <Col flex="136px">
-                <a target="_blank" href="https://www.tursab.org.tr/tr/ddsv">
-                  <img src="https://cdn2.setur.com.tr/image/footer/Tursab_logo_white.jpg" class="img-responsive" alt='image alt' />
+                <a  target="_blank" rel="noreferrer" href="https://www.tursab.org.tr/tr/ddsv">
+                  <img src="https://cdn2.setur.com.tr/image/footer/Tursab_logo_white.jpg" class="img-responsive" alt='alttext for ' />
                 </a>
               </Col>
             </Row>
@@ -118,13 +117,13 @@ class FooterContent extends Component {
         </Row>
         <Row>
           <Col className='koc' span={12}>
-            <a class="koc" href="http://www.koc.com.tr/tr-tr" target="_blank" title="KOÇ HOLDİNG">
-              <img src="https://cdn2.setur.com.tr/image/homepage/koc.png" alt='image alt' />
+            <a class="koc" href="http://www.koc.com.tr/tr-tr"  target="_blank" rel="noreferrer" title="KOÇ HOLDİNG">
+              <img src="https://cdn2.setur.com.tr/image/homepage/koc.png" alt='alttext for ' />
             </a> © Copyright 2000 - 2021
           </Col>
           <Col className='text-right' span={12}>
-            <img class="mr-16" src="https://sectigo.com/images/seals/sectigo_trust_seal_sm_2x.png" alt='image alt' />
-            <img src="https://cdn2.setur.com.tr/image/footer/visa-mastercard-logo_2x.png" alt='image alt' />
+            <img class="mr-16" src="https://sectigo.com/images/seals/sectigo_trust_seal_sm_2x.png" alt='alttext for ' />
+            <img src="https://cdn2.setur.com.tr/image/footer/visa-mastercard-logo_2x.png" alt='alttext for ' />
 
           </Col>
         </Row>
