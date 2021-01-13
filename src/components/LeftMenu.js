@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Menu, Icon, Row, Col, Space } from 'antd';
+import { Menu, Row, Col } from 'antd';
 
 const SubMenu = Menu.SubMenu;
 const dummyMenu = 
